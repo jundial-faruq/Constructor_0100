@@ -14,3 +14,16 @@ class mahasiswa{
         void cetak();
     
 };
+
+mahasiswa :: mahasiswa(int iNim){
+    nim = iNim; // definisi hanya nim
+}
+
+mahasiswa :: mahasiswa(int iNama){
+    nim = iNama; // definisi hanya nama
+}
+
+mahasiswa :: mahasiswa(int iNim, string iNama){
+    nim = iNim; // definisi hanya nim
+    nama = iNama;
+}
