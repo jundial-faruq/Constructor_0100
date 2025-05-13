@@ -22,4 +22,11 @@ class buku{
 
 };
 
+int main()
+{
+    buku bukunya;
+    cout<<bukunya.setJudul("Matematika").getJudul(); // cain fuction calls
+    return 0;
+}
+
 
