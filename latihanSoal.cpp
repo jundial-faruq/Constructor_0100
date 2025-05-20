@@ -17,7 +17,7 @@ void output(){
 };
 
 int main(){
-    barang brg("Rayhan Fatih Ramadhani", 9999);
+    barang brg("Pintu Kemana saja", 9999);
     brg.output();
 
     return 0;
